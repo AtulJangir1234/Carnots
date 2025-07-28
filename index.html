@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnots - Academic Excellence</title> 
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="script.js">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="logosmall.png">
+
+    <!-- Google Fonts Links For Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a class="logo" href="login.html"><img src="logo.png" alt="Carnots Logo"></a>
+        <ul class="menu-links">
+          <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about us">About us</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact us">Contact us</a></li>
+        </ul>
+        <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+        <a href="login.html" class="login-btn">Log in</a>
+      </nav>
+    </header>
+       <script>
+            const header = document.querySelector("header");
+            const hamburgerBtn = document.querySelector("#hamburger-btn");
+            const closeMenuBtn = document.querySelector("#close-menu-btn");
+            // Toggle mobile menu on hamburger button click
+            hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
+            // Close mobile menu on close button click
+            closeMenuBtn.addEventListener("click", () => hamburgerBtn.click());
+    </script>
+    
+    <section class="hero-section">
+      <div class="content">
+        <h2>Achieve Academic Excellence</h2>
+        <p>
+          Get personalized help with assignments, exam preparation, understanding topics, and much more.
+        </p>
+        <div class="buttons">
+            <a class="button" href="#services">Explore Services</a>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+    
+
+  <!-- WhatsApp Icon -->
+<a
+  href="https://wa.me/+918209314235"
+  class="whatsapp-float"
+  target="_blank"
+  aria-label="Chat on WhatsApp"
+>
+  <img
+    src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"
+    alt="WhatsApp"
+  />
+</a>
+
+<!-- CSS to float the icon -->
+<style>
+  .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #25d366;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+  }
+
+  .whatsapp-float:hover {
+    transform: scale(1.1);
+  }
+
+  .whatsapp-float img {
+    width: 40px;
+    height: 40px;
+  }
+</style>
+
+<!-- Our Services Section -->
+<section class="services-section" id="services">
+  <h2 class="services-title">Our Services</h2>
+  <div class="services-grid">
+    <div class="service-card"><a href="login.html">Assignment Help</a></div>
+    <div class="service-card"><a href="login.html">Assessment</a></div>
+    <div class="service-card"><a href="login.html">Project & Lab report</a></div>
+    <div class="service-card"><a href="login.html">Essay & Presentation</a></div>
+    <div class="service-card"><a href="login.html">Live Session</a></div>
+  </div>
+</section>
+
+<!-- Task Completion Steps Section -->
+<section class="task-section" id="services">
+  <h2 class="task-title">Task Completion in 4 Steps</h2>
+  <p class="task-subtitle">It's THAT Simple.</p>
+
+  <div class="task-steps">
+    <div class="task-card">
+      <h3><span class="step-number">1</span> <span class="step-title">Sign up</span></h3>
+      <p>Fill in your details at <a href="/signup">SignUp</a> to complete the Sign-Up process.</p>
+    </div>
+    <div class="task-card">
+      <h3><span class="step-number">2</span> <span class="step-title">Place Your Order</span></h3>
+      <p>Click on Service, upload Details and place your desired Order.</p>
+    </div>
+    <div class="task-card">
+      <h3><span class="step-number">3</span> <span class="step-title">Make Payment</span></h3>
+      <p>Depending on your order, you will get a price Quote, after discussion you will be asked for payment.</p>
+    </div>
+    <div class="task-card">
+      <h3><span class="step-number">4</span> <span class="step-title">Get Solution & AWA</span></h3>
+      <p>After payment, you'll get your completed work before Deadline with After Work Assistance.</p>
+    </div>
+  </div>
+</section>
+
+<section class="video-section">
+  <div class="video-container">
+    <iframe
+      src="https://www.youtube.com/embed/27k5z8lhzvY"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
+</section>
+
+<hr class="section-divider">
+ 
+
+<!-- About Us Section -->
+<section class="about-section" id="about us">
+  <h2 class="about-title">About Us</h2>
+  <p class="about-subtext">
+    We are dedicated to providing personalized academic help for students across the globe. Whether it’s assignments, exams, or understanding complex topics, our platform connects students with expert tutors to ensure success in every subject.
+  </p>
+
+  <div class="trusted-box">
+    <p class="trusted-subtitle">Trusted by Students Worldwide</p>
+    <h3 class="trusted-title">Our Services Trusted By Global University Students</h3>
+
+    <div class="university-grid">
+      <div class="uni-item">
+        <img src="university/Abu Dhabi.png" alt="Abu Dhabi University">
+        <p>Abu Dhabi University</p>
+      </div>
+      <div class="uni-item">
+        <img src="/university/Khalifa University.png" alt="Khalifa University">
+        <p>Khalifa University</p>
+      </div>
+      <div class="uni-item">
+        <img src="/university/United Arab Emirates University.png" alt="UAE University">
+        <p>United Arab Emirates University</p>
+      </div>
+      <div class="uni-item">
+        <img src="university/Al Ain University.png" alt="Al Ain University">
+        <p>Al Ain University</p>
+      </div>
+      <div class="uni-item">
+        <img src="university/American University of Sharjah.png" alt="AUS">
+        <p>American University of Sharjah</p>
+      </div>
+      <div class="uni-item">
+        <img src="university/Miami University.png" alt="Miami University">
+        <p>Miami University</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="section-divider">
+
+<!-- Testimonials Section -->
+<section class="testimonial-section" id="testimonials">
+  <h2 class="testimonial-title">What Our Students Say</h2>
+
+  <div class="testimonial-grid">
+    <div class="testimonial-card">
+      <h3>Faisal Ahmed</h3>
+      <p>"The tutors' expertise is evident. Their guidance in assignments significantly improved my academic standing."</p>
+      <img src="Students/Faisal_Ahmed.jpeg" alt="Faisal Ahmed">
+    </div>
+
+    <div class="testimonial-card">
+      <h3>Mariam Hassan</h3>
+      <p>"The personalized tutoring sessions transformed my understanding of complex subjects. I now approach my studies with confidence."</p>
+      <img src="Students/Mariam_Hassan.jpeg" alt="Mariam Hassan">
+    </div>
+
+    <div class="testimonial-card">
+      <h3>Omar Khalil</h3>
+      <p>"Balancing work and studies was tough, but their assignment assistance was a lifesaver. It helped me meet every deadline."</p>
+      <img src="Students/Omar_Khalil.jpeg" alt="Omar Khalil">
+    </div>
+
+    <div class="testimonial-card">
+      <h3>Sara Al Balushi</h3>
+      <p>"The exam preparation resources were top-notch. Practice tests closely mirrored the real exams, boosting my performance."</p>
+      <img src="Students/Sara_Al_Balushi.jpeg" alt="Sara Al Balushi">
+    </div>
+  </div>
+</section>
+
+<hr class="section-divider">
+
+<!-- Contact Us Section -->
+<section class="contact-section" id="contact us">
+  <h2 class="contact-title">Contact Us</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <input type="text" placeholder="Title" required>
+    <textarea placeholder="Your Query" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer class="modern-footer">
+  <div class="footer-container">
+    <div class="footer-column brand">
+      <img src="logo.png" alt="CARNOTS Logo" class="footer-logo" />
+      <p>Achieve Academic Excellence</p>
+      <div class="social-icons">
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-column">
+      <h3>SERVICE DOMAINS</h3>
+      <ul>
+        <li><a href="login.html">Physics & Chemistry</a></li>
+        <li><a href="login.html"></a>Mathematics (Calculus, Algebra, 3D)</a></li>
+        <li><a href="login.html"></a>Statistics & Differential Equations</a></li>
+        <li><a href="login.html"></a>Engineering (Electrical, Civil, Mechanical)</a></li>
+        <li><a href="login.html"></a>Economics, Accounting & Finance</a></li>
+        <li><a href="login.html"></a>Computer Science (Python, Java, C)</a></li>
+        <li><a href="login.html"></a>English Language Courses</a></li>
+        <li><a href="login.html"></a>Health & Social Care</a></li>
+        <li><a href="login.html"></a>Biology, Dental & Biotech</a></li>
+        <li><a href="login.html"></a>Philosophy & Psychology</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>CONTACT</h3>
+      <p>📞 +91-8209314235</p>
+      <p>✉️ support@carnots.com</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 CARNOTS. All rights reserved.</p>
+  </div>
+</footer>
+
+    
+    
+  </body>
+</html>
